@@ -1,0 +1,332 @@
+/* Extra small devices (portrait phones, less than 576px)*/ 
+@media (max-width: 575.98px) {
+    /*header start------*/
+    body {
+        padding-top: 79px;
+    }
+    .menu ul li a {
+        font-size: 18px !important;
+        padding: 5px 0 0  !important;
+        text-align: right;
+    }
+    header {
+        padding: 5px 0;
+    }
+    /*header end*/
+    /*slider start*/
+    .s-text {
+        padding-top: 40px;
+    }
+    .s-text h1{
+        font-size: 20px;
+        
+    }
+    .s-text h2{
+        font-size: 18px;
+        margin: 10px 0 10px;
+    
+    }
+    .s-text p{
+        line-height: 20px;
+        margin-bottom: 30px;
+    
+    }
+    .s-icon ul li{
+        padding-right: 0;
+    }
+    
+    .s-icon ul li i{
+        font-size: 30px;
+        
+    
+    }
+    .c-ind{
+        bottom: -40px;
+    }
+    .c-ind [data-bs-target] {
+        width: 13px;
+        height: 13px;
+    }
+    
+    /*slider end*/
+    /*feature start*/
+    .feature {
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+    .c-h1 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    
+    }
+    .c-p {
+        font-size: 16px;
+          line-height: 20px;
+    }
+    .f-item {
+        margin-top: 50px;
+    }
+    .f-text {
+        text-align: center;
+    }
+    .f-text h2 {
+        font-size: 20px;
+        font-weight: 900;
+        color: #010101;
+        margin-top: 10px;
+    }
+    .f-icon i {
+        font-size: 30px;
+      
+    }
+    .list-inline-item:not(:last-child) {
+        margin-right: 0.2rem;
+    }
+    
+    /*feature end*/
+    /*cotuct us start*/
+    .contract {
+        padding: 60px 0 70px;
+     
+    }
+    .c-form {
+        margin-top: 30px;
+        margin-bottom: 35px;
+    }
+    .c-input {
+        height: 40px;
+    
+    }
+    .c-submit {
+        height: 40px;
+    /*cotuct us end*/
+    
+    }
+    .c-icon ul li a {
+        font-size: 30px;
+     
+    }
+    .c-icon li{
+        margin-right: 20px!important;
+    }
+    footer {
+        padding-bottom: 50px;
+    }
+    .f-1 address {
+        text-align: center;
+        margin-bottom: 60px;
+    
+    }
+    .f-2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    }
+    
+    /* Small devices (landscape phones, 576px and up)*/ 
+    @media (min-width: 576px) and (max-width: 767.98px) {
+    
+    /*header start*/
+    body {
+        padding-top: 79px;
+    }
+    header {
+        padding: 10px 0;
+    }
+    .menu ul li a {
+        font-size: 20px !important;
+        padding: 8px 0 0 !important;
+        text-align: right;
+    }
+    /*header end*/
+    /*slider start*/
+    .s-text {
+        padding-top: 50px;
+    }
+    .s-text h1{
+        font-size: 25px;
+        
+    }
+    .s-text h2{
+        font-size: 20px;
+        margin: 15px 0 15px;
+    
+    }
+    .s-text p{
+        margin-bottom: 30px;
+    
+    }
+    .c-ind{
+        bottom: -35px;
+    }
+    .c-ind [data-bs-target] {
+        width: 14px;
+        height: 14px;
+    
+    }
+    .s-icon ul li i {
+        font-size: 25px;
+        padding: 0 0;
+    
+    }
+    .s-icon ul li {
+        padding-right: 5px;
+    }
+    .s-icon ul li i{
+        font-size: 30px;
+    }
+    
+    /*slider end*/
+    /*feature start*/
+    .feature {
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+    .c-h1 {
+        font-size: 25px;
+    
+    }
+    .c-p {
+        font-size: 16px;
+          line-height: 20px;
+    }
+    .f-item {
+        margin-top: 50px;
+    }
+    .f-text {
+        text-align: center;
+    }
+    .f-text h2 {
+        font-size: 20px;
+        font-weight: 900;
+        color: #010101;
+       margin-top: 10px;
+    }
+    
+    /*feature end*/
+    /*cotuct us start*/
+    .contract {
+        padding: 90px 0 70px; 
+    }
+    .c-form {
+        margin-top: 40px;
+        margin-bottom: 45px;
+    }
+    .c-input {
+        height: 45px;
+    }
+    .c-submit {
+        height: 45px;
+    }
+    .c-icon ul li a {
+        font-size: 35px; 
+    }
+    .c-icon li{
+        margin-right: 25px!important;
+    }
+    /*footer start*/
+    .f-1 address {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    footer {
+        padding-bottom: 80px;
+    }
+    }
+    
+    /* Medium devices (tablets, 768px and up)*/ 
+    @media (min-width: 768px) and (max-width: 991.98px) {
+    /*header start*/
+    .menu ul li a {
+        font-size: 22px !important;
+        padding: 10px 0 0 !important;
+        text-align: right;
+    }
+    /*header end*/
+    /*slider start*/
+    .s-text {
+        padding-top: 60px;
+    }
+    .s-text h2 {
+    
+        margin: 15px 0 15px;
+    }
+    .c-ind{
+        bottom: -40px;
+    }
+    .s-icon ul li{
+        padding-right: 10px;
+    }
+    .s-icon ul li i{
+        font-size: 30px;
+    
+    }
+    .c-ind [data-bs-target] {
+        width: 15px;
+        height: 15px;
+    
+    }
+    /*slider end*/
+    /*feature start*/
+    .feature {
+        padding-top: 80px;
+        padding-bottom: 100px;
+    }
+    .c-h1 {
+        font-size: 30px;
+    
+    }
+    .c-p {
+        font-size: 18px;
+        
+    }
+    .f-item {
+        margin-top: 65px;
+    }
+    
+    /*feature end*/
+    /*cotuct us start*/
+    .contract {
+        padding: 90px 0 80px;
+    
+    }
+    .c-form {
+        margin-top: 40px;
+        margin-bottom: 45px;
+    }
+    .c-input {
+        height: 45px;
+    
+    }
+    .c-submit {
+        height: 45px;
+    /*cotuct us end*/
+    }
+    .c-icon ul li a {
+        font-size: 35px;
+     
+    }
+    .c-icon li{
+        margin-right: 25px!important;
+    }
+    }
+    
+    /* Large devices (desktops, 992px and up)*/ 
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+        .menu ul li a {
+            padding: 0 30px !important;
+        }
+        
+    }
+    
+    /* Extra large devices (large desktops, 1200px and up)*/
+    @media (min-width: 1200px) and (max-width: 1399.98px) {
+        .menu ul li a {
+            padding: 0 38px !important;
+        }
+        
+    }
+    
+    /* Extra extra large devices (large desktops, 1200px and up)*/
+    @media (min-width: 1440px) { }
